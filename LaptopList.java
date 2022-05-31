@@ -32,9 +32,9 @@ public class LaptopList  {
         	
         		Collections.sort(lap,com);
         //System.out.println(new Laptops().getBrand());
-        	/*Collections.sort(lap,(Laptops o1,Laptops o2)->{
+        	Collections.sort(lap,(Laptops o1,Laptops o2)->{
         		return o1.getPrice()>o2.getPrice()? -1:1;
-        	});*/
+        	});
         		Collections.sort(lap);
         for(Laptops l1:lap)
         {
