@@ -21,7 +21,7 @@ public class Frequency {
 	        }
 	        
 	        Set<Integer> t=map.keySet();
-	        for(Integer i:t)
+	        for(Integer i:t)                 //printing
 	        {
 	            if(map.get(i)==1)
 	                res=i;
